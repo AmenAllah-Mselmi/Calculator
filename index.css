@@ -1,0 +1,122 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: nones;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkblue;
+    width: 100vw;
+    height: 100vh;
+}
+.calc{
+    background-color: white;
+    width: 28%;
+    height: 70%;
+}
+.resultat{
+    background-color: black;
+    width: 95%;
+    height: 17%;
+    margin: 10px;
+    color: white;
+    display:flex; 
+    align-items:center ;
+    justify-content:end ;
+    font-size: 30px;
+    overflow: hidden;
+    padding-right: 10px;
+}
+.contenu{
+    margin: 10px;
+    width: 95%;
+    height: 77%;
+    display: grid;
+    grid-template-areas: 
+    "em1   em2   em3   em4"
+    "em5   em6   em7   em8"
+    "em9   em10  em11  em8"
+    "em12  em13  em14  em8"
+    "em15  em16  em17  em8"
+    ;
+    grid-gap:10px
+}
+#em1{
+grid-area: "em1";
+color:dodgerblue;
+font-size: 30px;
+}
+#em2{
+    grid-area: "em2";
+    color:dodgerblue;
+    font-size: 30px;
+    }
+    #em3{
+        grid-area: "em3";
+        color:dodgerblue;
+        font-size: 30px;
+        }
+        #em4{
+            grid-area: "em4";
+            color:dodgerblue;
+            font-size: 30px;
+            }
+            #em5{
+                grid-area: "em5";
+                }
+                #em6{
+                    grid-area: "em6";
+                    }
+                    #em7{
+                        grid-area: "em7";
+                        }
+                        #em8{
+                            grid-area: "em8";
+                            grid-row: 2/6;
+                            grid-column: 4/5;
+                            background-color: blueviolet;
+                            color: white;
+                            }
+                            #em9{
+                                grid-area: "em9";
+                                }
+                                #em10{
+                                    grid-area: "em10";
+                                    }
+                                    #em11{
+                                        grid-area: "em11";
+                                        }
+                                        #em12{
+                                            grid-area: "em12";
+                                            }
+                                            #em13{
+                                                grid-area: "em13";
+                                                }
+                                                #em14{
+                                                    grid-area: "em14";
+                                                    }
+                                                    #em15{
+                                                        grid-area: "em15";
+                                                        }
+                                                        #em16{
+                                                            grid-area: "em16";
+                                                            }
+                                                            #em17{
+                                                                grid-area: "em17";
+                                                                background-color: red;
+                                                                color: white;
+                                                                font-weight: bolder;
+                                                                }
+.p{
+    border:solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
